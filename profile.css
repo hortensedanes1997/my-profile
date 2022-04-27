@@ -1,0 +1,159 @@
+body {
+	background-color: #F6F1EB;
+	color: #575F7D;
+  font-family: 'monospace', sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+html {
+    font-size: 81.25%;
+}
+
+h1, h2, h3 {
+  font-family: 'monospace', monospace;
+}
+h1 {
+	color: #585757;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+}
+
+h2 {
+	color : #878685;
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+a {
+  font-family: 'monospace', monospace;
+	text-decoration: none;
+	color: #92918F;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/* Custom Design with class (90% of your design) */
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: -200px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.card-white {
+	background-color: #FEFCF7;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 0px;
+	margin: 20px -200px;
+	text-align: center;
+}
+.card-white3 {
+  background-color: #F6F1EB;
+  padding: 20px;
+  white-space: 20px;
+  margin: 20px -200px;
+  text-align: center;
+  display:
+}
+
+.display-anim {
+    height: 250px;
+    margin: 12px 0;
+    background: url("https://1.bp.blogspot.com/-SEBMg2X0IqM/XRyfgTMBBkI/AAAAAAAAFEE/_xBgKj-gxtY1MybpCBCmDIUL-_Jtjl6FQCLcBGAs/s320/car.png") no-repeat left center #57A6F6;
+    -webkit-animation: test 4s infinite;
+    animation: test 4s infinite;
+}
+@-webkit-keyframes test {
+    50% {
+        background-position: right center;
+    }
+}
+@keyframes test {
+    50% {
+        background-position: right center;
+    }
+}
+
+.img-square {
+	border-radius: 50%;
+}
+.btn-blue {
+	color: #92918F;
+	padding: 20px 20px;
+  text-decoration : underline;
+
+}
+
+.btn-blue:hover {
+  color: black;
+  text-decoration : underline;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  color: #575F7D;
+  display: inline;
+  padding: 10px;
+}
+
+
+a:hover {
+  color: black;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-inline i: hover {
+  background-color: #575F7D;
+	color: #575F7D;
+}
+
+
